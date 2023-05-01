@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
             scrollDirection: Axis.horizontal,
             itemCount: festivalPost.length,
             separatorBuilder: (context, i) {
-              return SizedBox(width: 20);
+              return const SizedBox(width: 20);
     },
     itemBuilder: (context, i) {
       return GestureDetector(
